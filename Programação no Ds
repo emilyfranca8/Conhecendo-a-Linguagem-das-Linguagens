@@ -23,11 +23,11 @@ int main () {
     }
     else {
 
-        printf("acertou %d\n", acertou);
-
         int maior = chute > numerosecreto;
-        if(chute > numerosecreto) {
+        if(maior) {
             printf("Seu chute foi maior que o número secreto\n");
+
+            printf("%d\n", maior);
         } else {
             printf("Seu chute foi menor que o número secreto\n");
         }
